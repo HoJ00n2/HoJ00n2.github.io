@@ -20,12 +20,16 @@
 
   /* Sidebar links */
   a {
-    color: #fff;
+    color: rgb(255, 255, 255);
     border-bottom-color: rgba(255, 255, 255, 0.2);
 
     // &:hover, &:focus {
     //   border-bottom-color: #fff;
     // }
+  }
+  b {
+    color: rgb(255,255,255);
+    font-size: 10rem;
   }
 }
 
@@ -137,7 +141,7 @@
 /* About section */
 .sidebar-about > h1 {
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;//제목 크기조절 가능
 }
 
 .sidebar-nav > ul {
